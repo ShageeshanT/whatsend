@@ -31,6 +31,30 @@ pip install pywhatkit pyautogui
 ```
 
 ---
+## 🖥️ OS-Specific Setup Commands
+
+### 🌗 Linux
+
+```bash
+sudo apt update
+sudo apt install python3 python3-pip -y
+pip3 install pywhatkit pyautogui
+sudo apt install scrot python3-tk python3-dev xclip -y
+```
+
+### 🪠 Windows
+
+```cmd
+pip install pywhatkit pyautogui
+```
+
+### 🍎 macOS
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install python
+pip3 install pywhatkit pyautogui
+```
 
 ## 🚀 Usage
 
